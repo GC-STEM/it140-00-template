@@ -50,7 +50,7 @@ it140_00_{{project_name}}/
 
 ### Support Files
 
-This repository may also included support files for project management, code quality, and automated testing. These files are essential for maintaining a well-organized and high-quality codebase, but they are not meant to be modified by students.
+This repository may also included support files for project management, code quality, and automated testing. These files are essential for maintaining a well-organized and high-quality codebase, but they are not meant to be modified by students. Just ignore these files and folders as you work on the activity, and focus on the main project files outlined above. The support files may include:
 
 ```text
 it140_00_{{project_name}}/
