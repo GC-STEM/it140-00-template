@@ -24,13 +24,25 @@ Perform the following tasks to analyze the problem and understand the requiremen
 
 ## 2. Design Phase
 
+### 2.1 Software Design Document (SDD)
+
 In the [`design\`](../design/) directory, perform the following tasks to design the program that meets the SRS.
 
 - [ ] 2.1. Read the [Software Design Document](./design/design.md) (SDD)
 
-- [ ] 2.2. {{Review the | Complete the |Create a}} [flowchart](./design/flowchart.drawio).
+### 2.2 Flowchart
 
-- [ ] 2.3. Mentally trace a couple of test cases through the flowchart to ensure it correctly represents the program logic and produces the expected outputs for the given inputs.
+- [ ] 2.2.0. Install support for Draw.io diagrams (`.drawio` files) in your IDE, if you have not done so already.
+    - **VS Code | Open VSX**: Install the **Draw.io Integration** extension (hediet.vscode-drawio).
+    - **JetBrains IDEs**: Install the **Diagrams.net Integration** plugin (de.docs_as_co.intellij.plugin.diagramsnet).
+
+- [ ] 2.2.1. Open the [flowchart.drawio](./design/flowchart.drawio) file in your IDE.
+
+- [ ] 2.2.2 {{Review the | Complete the |Create a}} [flowchart](./design/flowchart.drawio).
+
+- [ ] 2.2.3. Mentally trace a couple of test cases through the flowchart to ensure it correctly represents the program logic and produces the expected outputs for the given inputs.
+
+### 2.3 Pseudocode
 
 - [ ] 2.4. {{Review | Complete | Create}} [pseudocode](./design/pseudocode.md).
 
