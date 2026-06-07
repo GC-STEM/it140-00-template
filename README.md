@@ -34,11 +34,11 @@ To complete this assignment:
 - Make sure you've included all the required elements before submitting.
 - Submit your work on the {{ModNum}}-{{ActNum}} [Assignment Submission](link) page.
 
-To complete this assignment, follow the Software Development Life Cycle (SDLC). The top-level steps are listed below. See the [To-Do List](./todo_list.md) for detailed, step-by-step instructions.
+To complete this assignment, follow the Software Development Life Cycle (SDLC). The top-level steps are listed below. See the [To-Do List](./program_name_todo.md) for detailed, step-by-step instructions.
 
-1. **Analyze** the [problem and requirements](./analysis/requirements.md) to understand what needs to be done.
+1. **Analyze** the [problem and requirements](./analysis/program_name_srs.md) to understand what needs to be done.
 
-2. **Design** a solution that meets requirements using a [flowchart](./design/flowchart.drawio) and [pseudocode](./design/program_name.pseudo).
+2. **Design** a solution that meets requirements using a [flowchart](./design/program_name.drawio) and [pseudocode](./design/program_name.pseudo).
 
 3. **Construct** a working program in [`program_name.py`](./src/program_name.py) that implements the designed solution.
 
@@ -64,19 +64,19 @@ The following resources may help support your work on the project:
 The assignment repository is organized to match the Software Development Life Cycle (SDLC). This structure will help you keep your work organized and ensure that you are following the SDLC process effectively. Each folder contains specific files related to that phase of development, as outlined below:
 
 ```text
-it140_00_{{program_name}}/
+it140_00_program_name/
 │
 ├── README.md                 # 0. Start here: assignment overview
-├── todo_list.md              # Step-by-step directions for this assignment
-├── worksheet.md              # SDLC worksheet to plan your work
+├── program_name_todo.md      # Step-by-step directions for this assignment
+├── program_name_wks.md       # SDLC worksheet to plan your work
 │
 ├── analysis/                 # 1. Analysis: understand the problem
-│   └── requirements.md       # Software Requirements Specification (SRS)
+│   └── program_name_srs.md   # Software Requirements Specification (SRS)
 │
 ├── design/                   # 2. Design: plan the solution
-│   ├── design.md             # Software Design Document (SDD)
-│   ├── flowchart.drawio      # Visual outline of program logic
-│   └── program_name.pseudo   # Step-by-step logic before coding
+│   ├── program_name_sdd.md   # Software Design Document (SDD)
+│   ├── program_name.drawio   # Flowchart: visual outline of program logic
+│   └── program_name.pseudo   # Pseudocode: step-by-step logic before coding
 │
 ├── src/                      # 3. Construction: write the code
 │   └── program_name.py       # Python source (src) code file

@@ -12,13 +12,13 @@
 
 Perform the following tasks to analyze the problem and understand the requirements for the program you will develop.
 
-- [ ] 1.1. Read the [Software Requirement Specifications](../analysis/requirements.md) (SRS) to understand the program's requirements.
+- [ ] 1.1. Read the [Software Requirement Specifications](./analysis/program_name_srs.md) (SRS) to understand the program's requirements.
 
-- [ ] 1.2. Complete the **TBD** section of your [Development Worksheet](./worksheet.md) to understand the requirements for the program you will be developing.
+- [ ] 1.2. Complete the **TBD** section of your [Development Worksheet](./program_name_wks.md) to understand the requirements for the program you will be developing.
 
 - [ ] 1.3. Review the Sample Input/Output (I/O) file to understand the program's expected behavior.
 
-- [ ] 1.4. Complete the **IPO** section of your [Development Worksheet](./worksheet.md) to understand the program's inputs, processing, and outputs.
+- [ ] 1.4. Complete the **IPO** section of your [Development Worksheet](./program_name_wks.md) to understand the program's inputs, processing, and outputs.
 
 
 
@@ -26,9 +26,9 @@ Perform the following tasks to analyze the problem and understand the requiremen
 
 ### 2.1 Software Design Document (SDD)
 
-In the [`design\`](../design/) directory, perform the following tasks to design the program that meets the SRS.
+Perform the following tasks to design the program that meets the SRS.
 
-- [ ] 2.1. Read the [Software Design Document](./design/design.md) (SDD)
+- [ ] 2.1. Read the [Software Design Document](./design/program_name_sdd.md) (SDD)
 
 ### 2.2 Flowchart
 
@@ -36,19 +36,19 @@ In the [`design\`](../design/) directory, perform the following tasks to design 
     - **VS Code | Open VSX**: Install the **Draw.io Integration** extension (hediet.vscode-drawio).
     - **JetBrains IDEs**: Install the **Diagrams.net Integration** plugin (de.docs_as_co.intellij.plugin.diagramsnet).
 
-- [ ] 2.2.1. Open the [flowchart.drawio](./design/flowchart.drawio) file in your IDE.
+- [ ] 2.2.1. Open the [program_name.drawio](./design/program_name.drawio) file in your IDE.
 
-- [ ] 2.2.2 {{Review the | Complete the |Create a}} [flowchart](./design/flowchart.drawio).
+- [ ] 2.2.2 {{Review the | Complete the |Create a}} [flowchart](./design/program_name.drawio).
 
 - [ ] 2.2.3. Mentally trace a couple of test cases through the flowchart to ensure it correctly represents the program logic and produces the expected outputs for the given inputs.
 
 ### 2.3 Pseudocode
 
-- [ ] 2.4. {{Review | Complete | Create}} [pseudocode](./design/pseudocode.md).
+- [ ] 2.4. {{Review | Complete | Create}} [pseudocode](./design/program_name.pseudo).
 
 - [ ] 2.5. Mentally trace a couple of test cases through the pseudocode to ensure it correctly represents the program logic and produces the expected outputs for the given inputs.
 
-- [ ] 2.6. Complete the **Design** section of your [Development Worksheet](./worksheet.md) to document your design decisions and ensure you have a clear plan for implementing the program.
+- [ ] 2.6. Complete the **Design** section of your [Development Worksheet](./program_name_wks.md) to document your design decisions and ensure you have a clear plan for implementing the program.
 
 ## 3. Construction Phase
 
