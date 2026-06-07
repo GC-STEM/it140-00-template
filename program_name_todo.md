@@ -1,6 +1,6 @@
 # Software Development Life Cycle To-Do List
 
-**Course**: IT 140 - Introduction to Programming
+**Course**: IT 140 - Introduction to Scripting
 **Activity**: {{ModNum}}-{{ActNum}}: {{ActivityTitle}}
 **Project Name**: {{Project_name}}
 
@@ -32,23 +32,146 @@ Perform the following tasks to design the program that meets the SRS.
 
 ### 2.2 Flowchart
 
-- [ ] 2.2.0. Install support for Draw.io diagrams (`.drawio` files) in your IDE, if you have not done so already.
+Create a flowchart that shows the mid-level logic of the {{Program-Name}} program based on your Software Design Document (SDD). Your flowchart should help another person understand how the program moves from inputs, through processing and decisions, to outputs. Your flowchart does not need to show every line of code. Instead, it should show the main steps, decision points, loops, and data movement needed to meet the program requirements.
+
+- [ ] 2.2.0. Install support for Draw.io diagrams (`.drawio` files) in your IDE, if needed.
     - **VS Code | Open VSX**: Install the **Draw.io Integration** extension (hediet.vscode-drawio).
     - **JetBrains IDEs**: Install the **Diagrams.net Integration** plugin (de.docs_as_co.intellij.plugin.diagramsnet).
 
-- [ ] 2.2.1. Open the [program_name.drawio](./design/program_name.drawio) file in your IDE.
+- [ ] 2.2.1. Open the [`program_name.drawio`](./design/program_name.drawio) file in your IDE.
 
-- [ ] 2.2.2 {{Review the | Complete the |Create a}} [flowchart](./design/program_name.drawio).
+- [ ] 2.2.2. Review the provided flowchart resources. Study the tabs in the program_name.drawio file before creating your own flowchart.
+    - **Symbols**: Shows the flowchart symbols you may need.
+    - **Snippets**: Shows small examples of common program logic, such as decisions and loops.
+    - **Example**: Shows a completed flowchart for a different program.
 
-- [ ] 2.2.3. Mentally trace a couple of test cases through the flowchart to ensure it correctly represents the program logic and produces the expected outputs for the given inputs.
+- [ ] 2.2.3 Create the flowchart in the {{Program-Name}} tab. Add the symbols needed to show the program’s mid-level logic. Arrange the symbols in a clear order, aligned and evenly spaced. Include symbols for the major parts of your program, such as::
+    - **Inputs and outputs**: {{TODO: Add needed input/output symbols here.}}
+    - **Processes**: {{TODO: Add needed process symbols here.}}
+    - **Decisions**: {{TODO: Add needed decision symbols here.}}
+    - **Loops**: {{TODO: Add needed loop symbols here.}}
+    - **Start and end points**: {{TODO: Add needed start/end symbols here.}}
+
+- [ ] 2.2.4. Connect the flowchart symbols. Add connector lines to show the order in which the program steps happen.
+    - Use a solid line with an arrowhead to show the flow from one symbol to the next.
+    - Label each decision branch with the condition that controls that path, such as Yes, No, True, or False.
+    - Make sure every decision has a clear path for each possible outcome.
+    - Use a dashed line without an arrowhead only when connecting an annotation to a symbol.
+
+- [ ] 2.2.5. Check the flowchart against the SDD. Compare your flowchart to the SDD to make sure the flowchart includes the required functionality. Ask yourself:
+    - Does the flowchart show the required inputs?
+    - Does it show the main processing steps?
+    - Does it show the required decisions and paths?
+    - Does it show the expected outputs?
+    - Does each major requirement from the SDD appear somewhere in the flowchart?
+
+- [ ] 2.2.6. Trace test cases through the flowchart. Mentally trace at least one test case per path through the flowchart. Start with sample inputs, follow the arrows, and check whether the flowchart reaches the expected outputs. Revise the flowchart if a test case gets stuck, skips a required step, follows an unclear path, or produces the wrong result.
 
 ### 2.3 Pseudocode
 
-- [ ] 2.4. {{Review | Complete | Create}} [pseudocode](./design/program_name.pseudo).
+Create pseudocode that expands the logic from your flowchart into low-level, step-by-step instructions. Your pseudocode is the final design step before writing the source code for the `{{Program-Name}}` program. Your pseudocode should not use exact Python syntax. Instead, it should describe the program logic clearly enough that you can use it as a guide when you begin coding.
 
-- [ ] 2.5. Mentally trace a couple of test cases through the pseudocode to ensure it correctly represents the program logic and produces the expected outputs for the given inputs.
+- [ ] 2.3.1. Open the [`program_name.pseudo`](./design/program_name.pseudo) file in your IDE.
 
-- [ ] 2.6. Complete the **Design** section of your [Development Worksheet](./program_name_wks.md) to document your design decisions and ensure you have a clear plan for implementing the program.
+- [ ] 2.3.2. Review your flowchart and SDD. Use your flowchart and Software Design Document (SDD) as the source for your pseudocode. Before writing, identify the main parts of the program as comments in the pseudocode file. For example, you might identify:
+
+    - Inputs the program needs
+    - Values the program must store or update
+    - Processing steps the program must perform
+    - Decisions the program must make
+    - Loops the program must repeat, if any
+    - Outputs the program must display or save
+
+- [ ] 2.3.3. Write the pseudocode in a logical order. Expand each major flowchart symbol into one or more clear pseudocode steps. Write the steps in the order the program should follow, from start to finish. Include enough detail that another person could understand what the program should do before reading the code.
+
+* [ ] 2.3.4. Show inputs, outputs, and stored values.**
+
+  Include pseudocode steps for the data your program uses.
+
+  Your pseudocode should show:
+
+  * When the program gets input from the user or another source
+  * What values need to be stored
+  * When values are updated or calculated
+  * When the program displays or returns output
+
+* [ ] **2.3.4. Show decisions clearly.**
+
+  Write each decision so the condition is easy to understand.
+
+  For each decision, show what happens when the condition is true and what happens when the condition is false.
+
+  Use clear wording such as:
+
+  ```text
+  IF condition is true THEN
+      Do these steps
+  ELSE
+      Do these other steps
+  END IF
+  ```
+
+* [ ] **2.3.5. Show loops clearly, if needed.**
+
+  If your program repeats steps, write the loop condition and the steps that repeat.
+
+  Make sure the pseudocode shows:
+
+  * When the loop starts
+  * What condition controls the loop
+  * What steps happen inside the loop
+  * How the loop eventually ends
+
+  Use clear wording such as:
+
+  ```text
+  WHILE condition is true
+      Do these steps
+      Update the value that controls the loop
+  END WHILE
+  ```
+
+* [ ] **2.3.6. Keep the pseudocode readable.**
+
+  Use plain language and consistent indentation to show structure.
+
+  Your pseudocode should be:
+
+  * Clear
+  * Specific
+  * Ordered
+  * Easy to trace
+  * More detailed than the flowchart
+  * Less strict than source code
+
+* [ ] **2.3.7. Check the pseudocode against the flowchart.**
+
+  Compare your pseudocode to your flowchart.
+
+  Make sure every major flowchart step appears in the pseudocode, including:
+
+  * Inputs
+  * Processes
+  * Decisions
+  * Loops, if any
+  * Outputs
+  * Start and end logic
+
+* [ ] **2.3.8. Trace positive test cases through the pseudocode.**
+
+  Use the positive test cases from the requirements document to check your pseudocode.
+
+  Trace at least one positive test case for each major path in the logic. For example, if a decision has a true path and a false path, trace one valid test case through each path.
+
+  For each test case:
+
+  * Start with the given input.
+  * Follow the pseudocode step by step.
+  * Check each calculation, decision, and output.
+  * Confirm that the pseudocode produces the expected result.
+
+  Revise the pseudocode if a test case gets stuck, skips a required step, follows an unclear path, or produces the wrong result.
+
 
 ## 3. Construction Phase
 

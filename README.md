@@ -6,6 +6,10 @@
 
 This repository is incomplete and under active development. Code, documentation, structure, and features may change frequently. Use with caution, and check back for updates.
 
+**Course**: IT 140 - Introduction to Scripting
+**Activity**: {{ModNum}}-{{ActNum}}: {{ActivityTitle}}
+**Program Name**: {{Program-Name}}
+
 <!-- Summative Assessments Only-->
 <!-- ## Competencies
 
