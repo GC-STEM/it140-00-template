@@ -34,15 +34,15 @@ To complete this assignment:
 - Make sure you've included all the required elements before submitting.
 - Submit your work on the {{ModNum}}-{{ActNum}} [Assignment Submission](link) page.
 
-To complete this assignment, follow the Software Development Life Cycle (SDLC):
+To complete this assignment, follow the Software Development Life Cycle (SDLC). The top-level steps are listed below. See the [To-Do List](./todo_list.md) for detailed, step-by-step instructions.
 
-1. **Analyze** the problem and [requirements](./analysis/requirements.md) to understand what needs to be done.
+1. **Analyze** the [problem and requirements](./analysis/requirements.md) to understand what needs to be done.
 
-2. **Design** a solution the meets requirement using a [flowchart](./design/flowchart.drawio) and [pseudocode](./design/program_name.pseudo).
+2. **Design** a solution that meets requirements using a [flowchart](./design/flowchart.drawio) and [pseudocode](./design/program_name.pseudo).
 
 3. **Construct** a working program in [`program_name.py`](./src/program_name.py) that implements the designed solution.
 
-4. **Test** the program to ensure it works correctly and meets the requirements.
+4. **Test** the program to ensure it works correctly and meets the requirements. Debug any issues that arise during testing.
 
 5. **Submit** assignment deliverables for grading and feedback.
 
@@ -52,8 +52,8 @@ Your submission should be the file(s) listed below in plain text. No sources req
 
 | # | Deliverable | Template | Format |
 |---| ----------- | -------- | ------- |
-| 1 | Deliverable1 | `filename1` | File format of D1 |
-| 2 | Deliverable2 | `filename2` | File format of D2 |
+| 1 | {{Deliverable1}} | {{`filename1`}} | {{File format of D1}} |
+| 2 | {{Deliverable2}} | {{`filename2`}} | {{File format of D2}} |
 
 ## Supporting Materials
 
