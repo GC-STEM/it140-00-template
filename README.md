@@ -18,7 +18,7 @@ In this project, you will demonstrate your mastery of the following competencies
 
 ## Overview <!-- Scenario in projects -->
 
-
+{{TODO: Add an overview of the assignment or project scenario here.}}
 
 ## Prompt <!-- Directions in projects -->
 
@@ -36,27 +36,15 @@ To complete this assignment:
 
 To complete this assignment, follow the Software Development Life Cycle (SDLC):
 
-1. **Analyze** the problem and requirements to understand what needs to be done.
-    1. Read the [Software Requirements Specification](./analysis/requirements.md) (SRS) to understand the program's requirements.
-    2. Complete the **Analysis** section of your [Development Worksheet](./working/worksheet.md).
+1. **Analyze** the problem and [requirements](./analysis/requirements.md) to understand what needs to be done.
 
-2. **Design** a solution using a flowchart and pseudocode.
-    1. Read the [Software Design Document](./design/design.md) (SDD) to understand the design requirements and constraints.
-    2. {{Review the | Complete the | Create a}} [flowchart](./design/flowchart.drawio) to visually outline the program's logic and structure.
-    3. {{Review | Complete | Create}} pseudocode to detail the step-by-step logic of your program before coding.
-    4. Complete the **Design** section of your [Development Worksheet](./working/worksheet.md).
+2. **Design** a solution the meets requirement using a [flowchart](./design/flowchart.drawio) and [pseudocode](./design/program_name.pseudo).
 
-3. **Implement** the solution by writing code in the `src/program_name.py` file that meets the requirements.
-    1. Outline your code structure and logic using block comments{{ and function definitions}}.
-    2. Write code to implement the first required feature or behavior.
-    3. Test the code incrementally to ensure it works correctly and meets the requirements.
-    4. Repeat steps 2 and 3 until all requirements are implemented.
-    5. Document your code with clear comments and meaningful variable and function names to make it easy to read and maintain.
+3. **Construct** a working program in [`program_name.py`](./src/program_name.py) that implements the designed solution.
 
-4. **Test** the solution to ensure it works correctly and meets the requirements.
-    1. Test your program by {{submitting to the Instant Feedback Tool | running the provided test cases}} to check for correctness and identify any issues.
-    2. Compare your program against the [Acceptance Criteria Checklist](./tests/acceptance.md) (ACC) to verify that your program meets all the functional and nonfunctional requirements.
-    3. Submit assignment deliverables for grading and feedback.
+4. **Test** the program to ensure it works correctly and meets the requirements.
+
+5. **Submit**
 
 ## What to Submit
 
@@ -73,32 +61,28 @@ The following resources may help support your work on the project:
 
 ### Assignment Repository
 
-The assignment repository is organized to match the phases of our Software Development Life Cycle (SDLC). This structure will help you keep your work organized and ensure that you are following the SDLC process effectively. Each folder contains specific files related to that phase of development, as outlined below:
+The assignment repository is organized to match the Software Development Life Cycle (SDLC). This structure will help you keep your work organized and ensure that you are following the SDLC process effectively. Each folder contains specific files related to that phase of development, as outlined below:
 
 ```text
 it140_00_{{program_name}}/
 │
-├── README.md                 # Start here: assignment overview and directions
+├── README.md                 # Start here: assignment overview
+├── todo_list.md              # Step-by-step directions for this assignment
+├── worksheet.md              # Development worksheet to plan your work
 │
-├── analysis/                 # 1. Analysis phase: understand the problem
-│   ├── requirements.md       # Program requirements and sample input/output
-│   └── test_cases.md         # Planned acceptance test cases for the program
+├── analysis/                 # 1. Analysis: understand the problem
+│   └── requirements.md       # Software Requirements Specification (SRS)
 │
-├── design/                   # 2. Design phase: plan the solution
-│   ├── design.md             # Program design and SDD notes
+├── design/                   # 2. Design: plan the solution
+│   ├── design.md             # Software Design Document (SDD)
 │   ├── flowchart.drawio      # Visual outline of program logic
 │   └── program_name.pseudo   # Step-by-step logic before coding
 │
-├── src/                      # 3. Implementation phase: write the code
-│   └── program_name.py       # Main Python source code file
+├── src/                      # 3. Construction: write the code
+│   └── program_name.py       # Python source (src) code file
 │
-├── tests/                    # 4. Testing phase: check the code
-│   ├── acceptance.md         # Checklist for meeting requirements
-│   └── test_program_name.py  # Automated unit tests
-│
-└── working/                  # Planning notes and progress tracking
-    ├── todo_list.md          # To-do list for this activity
-    └── worksheet.md          # Development worksheet
+└── tests/                    # 4. Testing: check the code
+    └── test_program_name.py  # Automated unit tests
 ```
 
 *Note*. This repository may include additional files not listed in the main repository structure. These folders and files are essential for maintaining a well-organized and high-quality codebase, but they are not part of the Software Development Life Cycle (SDLC) and are not meant to be modified by students. Just ignore these as you work on the activity, and focus on the main repository files listed above.
