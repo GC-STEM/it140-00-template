@@ -44,7 +44,7 @@ To complete this assignment, follow the Software Development Life Cycle (SDLC):
 
 4. **Test** the program to ensure it works correctly and meets the requirements.
 
-5. **Submit**
+5. **Submit** assignment deliverables for grading and feedback.
 
 ## What to Submit
 
@@ -66,9 +66,9 @@ The assignment repository is organized to match the Software Development Life Cy
 ```text
 it140_00_{{program_name}}/
 │
-├── README.md                 # Start here: assignment overview
+├── README.md                 # 0. Start here: assignment overview
 ├── todo_list.md              # Step-by-step directions for this assignment
-├── worksheet.md              # Development worksheet to plan your work
+├── worksheet.md              # SDLC worksheet to plan your work
 │
 ├── analysis/                 # 1. Analysis: understand the problem
 │   └── requirements.md       # Software Requirements Specification (SRS)
@@ -82,7 +82,7 @@ it140_00_{{program_name}}/
 │   └── program_name.py       # Python source (src) code file
 │
 └── tests/                    # 4. Testing: check the code
-    └── test_program_name.py  # Automated unit tests
+    └── test_program_name.py  # Automated integration tests
 ```
 
 *Note*. This repository may include additional files not listed in the main repository structure. These folders and files are essential for maintaining a well-organized and high-quality codebase, but they are not part of the Software Development Life Cycle (SDLC) and are not meant to be modified by students. Just ignore these as you work on the activity, and focus on the main repository files listed above.
