@@ -47,3 +47,27 @@ The program shall:
 The program shall:
 
 1. TODO: Replace with any activity-specific design constraints
+
+## Sample Input and Output
+
+TODO: Replace with any activity-specific notes about program input and output, such as formatting requirements or constraints on user input.
+
+User program prompts and output are in normal font. User input is in bold font.
+
+### Sample Run 1
+
+```text
+
+TODO: Replace with sample input and output for this program
+
+```
+
+### Sample Run 2
+
+```text
+
+TODO: Replace with sample input and output for this program
+
+```
+
+For additional examples of expected program input and output, see [test_cases.md](./test_cases.md).
