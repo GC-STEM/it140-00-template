@@ -6,49 +6,41 @@
 
 ## 0. General Description
 
-TODO: Replace with a general description of the program, such as what the program will do, who the intended users are, and any important context or background information that is relevant to understanding the requirements for this program.
+{{TODO: Replace with a general description of the program derived from the assignment guidelines and rubric (G&R), such as what the program will do, who the intended users are, and any important context or background information that is relevant to understanding the requirements for this program.}}
 
 ## 1. Functional Requirements
 
 The program shall:
 
-- [ ] 1.1 TODO: Replace with specific functional requirements for this program, such as what the program should do, how it should respond to user input, and any specific features or behaviors that are required.
+- [ ] 1.1 {{TODO: Replace with specific functional requirements for this program derived from the G&R}}
 
 ## 2. Nonfunctional Requirements
 
 The program shall:
 
-- [ ] 2.1 Follow the zyBooks style guide for Python code formatting.
-
-- [ ] 2.2 Use meaningful variable names that clearly describe the data being stored.
-
-- [ ] 2.3 Use meaningful function or method names that clearly describe each action being performed.
-
-- [ ] 2.4 Use appropriate whitespace, including blank lines and indentation, to make the code easy to read.
-
-- [ ] 2.5 Include clear block and in-line comments where needed to explain important logic.
-
-- [ ] 2.6 Avoid unnecessary comments that repeat what the code already clearly shows.
-
-- [ ] 2.7 Organize the code so that it is readable, consistent, and easy to maintain.
+- [ ] 2.1 {{TODO: Replace in template with common nonfunctional requirements for this program derived from G&R}}
 
 ## 3. Technology Constraints
 
 The program shall:
 
-- [ ] 3.1 TODO: Replace with any activity-specific technology constraints, such as programming languages, libraries, or tools that must be used or avoided.
+- [ ] 3.1 {{TODO: Replace in template with common technology constraints for this program derived from the G&R}}
+
+- [ ] 3.x {{TODO: Replace with any activity-specific technology constraints derived from the G&R.}}
 
 ## 4. Quality of Service Constraints
 
 The program shall:
 
-- [ ] 4.1 TODO: Replace with any activity-specific QoS constraints
+- [ ] 4.1 {{TODO: Replace in template with common quality of service constraints for this program derived from G&R}}
+
+- [ ] 4.x {{TODO: Replace with any activity-specific quality of service constraints, such as performance, reliability, or security requirements.}}
 
 ## Sample Input and Output
 
-TODO: Replace with any activity-specific notes about program input and output, such as formatting requirements or constraints on user input.
+{{TODO: Replace with any activity-specific notes about program input and output, such as formatting requirements or constraints on user input.}}
 
-User program prompts and output are in normal font. User input is in bold font.
+User program prompts and output are in normal font. User input is in **bold font**.
 
 ### Sample Run 1
 
