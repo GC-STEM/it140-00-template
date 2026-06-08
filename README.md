@@ -98,6 +98,22 @@ it140_00_program_name/
 - [YouTube Video]()      <-
 - [Zotero Collection]()  <-
 
+## Course Development Environment
+
+| # | Purpose                    | Software | Version |
+|:-:| -------------------------- |----------| -------:|
+| 1 | Version Control            | Git      |     TBD |
+| 2 | Programming Language       | Python   |  3.12.x |
+| 3 | Code Editor                | VS Code  |     TBD |
+| 4 | Python             | ms-python.python |     TBD |
+| 5 | Linter/formatter | charliermarsh.ruff |     TBD |
+| 6 | Diagrams       | hediet.vscode-drawio |     TBD |
+| 7 | Pseudocode       | i2p-hub.i2p-pseudo |     TBD |
+| 8 | Spell Checker | streetsidesoftware.code-spell-checker |     TBD |
+
+
+
+
 ## AI Usage
 
 If you use gen AI tools to support your work on this assignment, be sure to follow these [AI usage guidelines](https://snhu.ink/StudentGenAIGuide). You must acknowledge your use of these tools in your work. Guidelines on how to cite AI tools can be found in [this Shapiro Library guide](https://snhu.ink/CitationAndAI).
